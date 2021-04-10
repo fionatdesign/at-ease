@@ -42,6 +42,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 434700,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/search.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -101,6 +114,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/hero.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
