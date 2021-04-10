@@ -17,19 +17,6 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
-    "\/deploy\/css\/img\/at-ease-logo.jpg" : {
-      "ft" : 16384,
-      "iS" : 3881,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/img\/at-ease-logo.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -41,6 +28,19 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/at-ease-logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 3881,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/at-ease-logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -89,7 +89,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/header.html",
       "oF" : 0
     },
