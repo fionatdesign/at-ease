@@ -55,6 +55,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/buying-furniture.jpg" : {
+      "ft" : 16384,
+      "iS" : 19598,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/buying-furniture.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/chair icon.png" : {
       "ft" : 32768,
       "iS" : 11700,
@@ -64,6 +77,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/color-trends.jpg" : {
+      "ft" : 16384,
+      "iS" : 19795,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/color-trends.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -78,12 +104,51 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/dining-table.jpg" : {
+      "ft" : 16384,
+      "iS" : 25750,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/dining-table.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 434700,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/home-office.jpg" : {
+      "ft" : 16384,
+      "iS" : 23877,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/home-office.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/pet-hair-free.jpg" : {
+      "ft" : 16384,
+      "iS" : 22048,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/pet-hair-free.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
