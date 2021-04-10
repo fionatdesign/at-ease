@@ -396,6 +396,14 @@
       "oAP" : "\/dev\/search.html",
       "oF" : 0
     },
+    "\/dev\/whats-new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/whats-new.html",
+      "oF" : 0
+    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
