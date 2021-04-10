@@ -42,6 +42,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/bedroom.jpg" : {
+      "ft" : 16384,
+      "iS" : 85143,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/bedroom.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/chair icon.png" : {
       "ft" : 32768,
       "iS" : 11700,
@@ -78,6 +91,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/plant-with-frames.jpg" : {
+      "ft" : 16384,
+      "iS" : 224288,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/plant-with-frames.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/room icon.png" : {
       "ft" : 32768,
       "iS" : 20414,
@@ -100,6 +126,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/white-chair.jpg" : {
+      "ft" : 16384,
+      "iS" : 33470,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/white-chair.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -186,6 +225,14 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/photo-collage.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/photo-collage.html",
+      "oF" : 0
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
