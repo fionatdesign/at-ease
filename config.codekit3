@@ -102,6 +102,14 @@
       "oAP" : "\/design\/Tran_Web_Redesign copy.sketch",
       "oF" : 0
     },
+    "\/dev\/explore-browse.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/explore-browse.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
