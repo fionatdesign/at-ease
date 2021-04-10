@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="24px" viewBox="0 0 80 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cta copy</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website-Redesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="at_ease_Desktop-HD" transform="translate(-625.000000, -1100.000000)">
+            <g id="cta-copy" transform="translate(0.000000, 102.000000)" filter="url(#filter-1)">
+                <g transform="translate(625.000000, 998.000000)">
+                    <text id="Details" font-family="OpenSans-Bold, Open Sans" font-size="18" font-weight="bold" fill="#2A3036">
+                        <tspan x="0" y="19">Details</tspan>
+                    </text>
+                    <g id="sort-up-solid" transform="translate(75.500000, 14.500000) rotate(-270.000000) translate(-75.500000, -14.500000) translate(68.000000, 10.000000)" fill="#000000" fill-rule="nonzero">
+                        <path d="M13.15,8.4 L1.25,8.4 C0.18,8.4 -0.355,7.105 0.4,6.35 L6.35,0.4 C6.82,-0.07 7.58,-0.07 8.045,0.4 L13.995,6.35 C14.755,7.105 14.22,8.4 13.15,8.4 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
