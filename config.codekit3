@@ -78,11 +78,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/chair icon.png" : {
+    "\/deploy\/img\/chair-icon.png" : {
       "ft" : 32768,
       "iS" : 11700,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/chair icon.png",
+      "oAP" : "\/deploy\/img\/chair-icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -219,11 +219,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/room icon.png" : {
+    "\/deploy\/img\/room-icon.png" : {
       "ft" : 32768,
       "iS" : 20414,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/room icon.png",
+      "oAP" : "\/deploy\/img\/room-icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
