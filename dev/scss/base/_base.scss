@@ -16,6 +16,18 @@ ul {
 }
 
 .content {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "search"
+    "hero"
+    "explore-browse"
+    "photo-collage"
+    "whats-new"
+    "footer";
+
+
+
     margin-bottom: 24px;
 
     @include md {
