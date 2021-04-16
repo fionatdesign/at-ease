@@ -366,7 +366,30 @@ ul li {
 }
 
 .content {
+  display: grid;
+  grid-template-areas: "header" "search" "hero" "explore-browse" "photo-collage" "whats-new" "footer";
   margin-bottom: 24px;
+}
+.content .header {
+  grid-area: header;
+}
+.content .search {
+  grid-area: search;
+}
+.content .hero {
+  grid-area: hero;
+}
+.content .explore-browse {
+  grid-area: explore browse;
+}
+.content .photo-collage {
+  grid-area: photo collage;
+}
+.content .whats-new {
+  grid-area: whats new;
+}
+.content .footer {
+  grid-area: footer;
 }
 @media (min-width: 768px) {
   .content {
