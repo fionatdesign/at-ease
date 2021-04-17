@@ -18,7 +18,7 @@ ul {
 .content {
     display: grid;
     grid-template-areas:
-        "header-img"
+        "header"
         "search"
         "hero"
         "explore-browse"
@@ -26,48 +26,129 @@ ul {
         "whats-new"
         "footer";
 
-.header-img {
+.header {
     grid-area: header;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .search {
     grid-area: search;
+    .searchbar {
+        width: 300px;
+    }
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 .hero{
     grid-area: hero;
+    .text {
+        padding-left: 20px;
+    }
 }
 
 .explore-browse {
     grid-area: explore browse;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 175px;
+    padding-left: 16px;
+    padding-bottom: 13px;
 }
 
 .photo-collage {
     grid-area: photo collage;
+    .whitechair {
+        width: 100%;
+        height: auto;
+    }
+    .plantwithframes {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .whats-new {
     grid-area: whats new;
+    .articletext {
+        padding-left: 16px;
+        padding-right: 16px;
+        display: block;
+        margin-block-start: 1fr;
+        margin-block-end: auto;
+    }
+
 }
 
 .footer {
     grid-area: footer;
+    padding-left: 20px;
+    hr {
+        width: 100%;
+        margin-left: auto;
+        margin-block-end: auto;
+    }
+    .signup {
+        height: 34px;
+        width: 287px;
+             .button {
+                 height: auto;
+                 }
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: 30px 30px 30px 30px;
+        padding-bottom: 20px;
+    }
+
+    .followus {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
 }
 
 .bedroom-img {
     display: none;
 }
 
+@media only screen and (min-width: 768px) {
+    .bedroom-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: none
+    }
+}
+
+    @media (max-width: 768px)
+    { .hero-img {
+		width: 100%;
+	}
+}
+
     @include sm{
-            grid-template-columns: 100%;
 
         .photo-collage {
             display: grid;
+            padding: none;
+            margin: none;
         }
+
+        .hero-img {
+            width: 100%;
+            
+        }
+
     }
 
     @include md {
         margin-bottom: 32px;
+
+        
     }
 
     @include xl {

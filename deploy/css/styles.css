@@ -367,38 +367,107 @@ ul li {
 
 .content {
   display: grid;
-  grid-template-areas: "header-img" "search" "hero" "explore-browse" "photo-collage" "whats-new" "footer";
+  grid-template-areas: "header" "search" "hero" "explore-browse" "photo-collage" "whats-new" "footer";
 }
-.content .header-img {
+.content .header {
   grid-area: header;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .content .search {
   grid-area: search;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.content .search .searchbar {
+  width: 300px;
 }
 .content .hero {
   grid-area: hero;
 }
+.content .hero .text {
+  padding-left: 20px;
+}
 .content .explore-browse {
   grid-area: explore browse;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 175px;
+  padding-left: 16px;
+  padding-bottom: 13px;
 }
 .content .photo-collage {
   grid-area: photo collage;
 }
+.content .photo-collage .whitechair {
+  width: 100%;
+  height: auto;
+}
+.content .photo-collage .plantwithframes {
+  width: 100%;
+  height: auto;
+}
 .content .whats-new {
   grid-area: whats new;
 }
+.content .whats-new .articletext {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: block;
+  margin-block-start: 1fr;
+  margin-block-end: auto;
+}
 .content .footer {
   grid-area: footer;
+  padding-left: 20px;
+}
+.content .footer hr {
+  width: 100%;
+  margin-left: auto;
+  margin-block-end: auto;
+}
+.content .footer .signup {
+  height: 34px;
+  width: 287px;
+}
+.content .footer .signup .button {
+  height: auto;
+}
+.content .footer .icons {
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px;
+  padding-bottom: 20px;
+}
+.content .footer .followus {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 .content .bedroom-img {
   display: none;
 }
-@media (min-width: 576px) {
-  .content {
-    grid-template-columns: 100%;
+@media only screen and (min-width: 768px) {
+  .content .bedroom-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: none;
   }
+}
+@media (max-width: 768px) {
+  .content .hero-img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
   .content .photo-collage {
     display: grid;
+    padding: none;
+    margin: none;
+  }
+  .content .hero-img {
+    width: 100%;
   }
 }
 @media (min-width: 768px) {
