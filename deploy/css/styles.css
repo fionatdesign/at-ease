@@ -367,10 +367,9 @@ ul li {
 
 .content {
   display: grid;
-  grid-template-areas: "header" "search" "hero" "explore-browse" "photo-collage" "whats-new" "footer";
-  margin-bottom: 24px;
+  grid-template-areas: "header-img" "search" "hero" "explore-browse" "photo-collage" "whats-new" "footer";
 }
-.content .header {
+.content .header-img {
   grid-area: header;
 }
 .content .search {
@@ -390,6 +389,17 @@ ul li {
 }
 .content .footer {
   grid-area: footer;
+}
+.content .bedroom-img {
+  display: none;
+}
+@media (min-width: 576px) {
+  .content {
+    grid-template-columns: 100%;
+  }
+  .content .photo-collage {
+    display: grid;
+  }
 }
 @media (min-width: 768px) {
   .content {

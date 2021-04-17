@@ -18,7 +18,7 @@ ul {
 .content {
     display: grid;
     grid-template-areas:
-        "header"
+        "header-img"
         "search"
         "hero"
         "explore-browse"
@@ -26,7 +26,7 @@ ul {
         "whats-new"
         "footer";
 
-.header {
+.header-img {
     grid-area: header;
 }
 
@@ -54,8 +54,17 @@ ul {
     grid-area: footer;
 }
 
+.bedroom-img {
+    display: none;
+}
 
-    margin-bottom: 24px;
+    @include sm{
+            grid-template-columns: 100%;
+
+        .photo-collage {
+            display: grid;
+        }
+    }
 
     @include md {
         margin-bottom: 32px;
