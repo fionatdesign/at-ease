@@ -504,12 +504,23 @@ ul li {
 .content .whats-new {
   grid-area: whats new;
 }
+.content .whats-new .whatsnewheader {
+  display: grid;
+  padding: 16px;
+}
 .content .whats-new .articletext {
   padding-left: 16px;
   padding-right: 16px;
   display: block;
   margin-block-start: 1fr;
   margin-block-end: auto;
+}
+.content .whats-new .articletext1 {
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.content .whats-new .articletext2 {
+  padding-bottom: 8px;
 }
 .content .footer {
   grid-area: footer;
@@ -579,4 +590,11 @@ button {
 .purplebutton:hover {
   background-color: #4D2C41;
   color: #fff;
+}
+
+.articlebutton {
+  background-color: #674059;
+  padding: 8px;
+  border: none;
+  margin-bottom: 24px;
 }
