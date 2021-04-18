@@ -15,6 +15,15 @@ ul {
     }
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .content {
     display: grid;
     grid-template-areas:
@@ -26,53 +35,160 @@ ul {
         "whats-new"
         "footer";
 
-.header {
-    grid-area: header;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.search {
-    grid-area: search;
-    .searchbar {
-        width: 300px;
-    }
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 25px;
-}
-
-.hero{
-    grid-area: hero;
-    .text {
-        padding-left: 20px;
-    }
-}
-
-.explore-browse {
-    grid-area: explore browse;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 175px;
-    padding-left: 16px;
-    padding-bottom: 13px;
-}
-
-.photo-collage {
-    grid-area: photo collage;
-    .whitechair {
+    .header {
         width: 100%;
-        height: auto;
+        padding-left: 16px;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
-    .plantwithframes {
-        width: 100%;
-        height: auto;
+
+    .search {
+        grid-area: search;
+        padding-left: 16px;
+        padding-top: 8px;
+        padding-bottom: 25px;
     }
-}
+
+    .hero{
+        grid-area: hero;
+
+        .hero-img {
+            width: 100%;
+        }
+
+        .herolinks{
+            @include md{
+                display: grid;
+                grid-template-columns: 40% auto;
+            }
+
+            @include xl{
+               
+            }
+       
+            #hero-link-1{
+                background-color: $berry;
+            }
+
+            #hero-link-2{
+                background-color: $berrylight;
+            }
+
+            .hero-link:link, .hero-link:visited{
+                display: block;               
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                text-decoration: none!important;
+                color: white;
+                padding: 15px 20px;   
+                
+
+                @include md{
+                    // display: grid;
+                    // grid-template-columns: 30% auto;
+                }
+                .detailshide{
+                    display: none;
+
+                    @include lg{
+                        display: inline-block;
+                    }
+                }
+                
+            }
+
+            .hero-link:hover, .hero-link:active{
+                background-color: $berrydark !important;
+                transition: .2s;
+            }
+    }
+
+   
+    }
+
+    .explore-browse {
+        grid-area: explore browse;
+        display: grid;
+        .greenads {
+            display: grid;
+            grid-template-columns: 60% auto;
+            background-color: $olive;
+            margin-bottom: 20px;
+            .purplebutton {
+            margin: 15px;
+            }
+            .furniture {
+                margin: 15px;
+            }
+            .greenads1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .photo-collage {
+        grid-area: photo collage;
+
+        @include md {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        @include lg {
+            grid-template-columns: 60% auto;
+        }
+
+        @include xl {
+            grid-template-columns: 55% auto;
+        }
+
+        .plantwithframes {
+            width: 100%;
+            height: 380px;
+            background-image: url("../img/plant-with-frames.jpg");
+            background-size: cover;
+            background-position: center;
+            @include md {
+                height: 475px;
+            }
+            @include xl {
+                height: 826px;
+            }
+        }
+
+        .whitechair {
+            width: 100%;
+            height: 475px;
+            background-image: url("../img/white-chair.jpg");
+            background-size: cover;
+            background-position: center;
+            @include xl {
+                height: 413px;
+            }
+        }
+
+        
+        .bedroom-img {
+            display: none;
+            @include xl{
+                display: block;
+                width: 100%;
+                height: 413px;
+                background-image: url("../img/bedroom.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+        }
+        
+    }
 
 .whats-new {
     grid-area: whats new;
+
     .articletext {
         padding-left: 16px;
         padding-right: 16px;
@@ -80,16 +196,34 @@ ul {
         margin-block-start: 1fr;
         margin-block-end: auto;
     }
+    .articletext1 {
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+    .articletext2 {
+        padding-bottom: 8px;
+    }
 
 }
 
 .footer {
     grid-area: footer;
-    padding-left: 20px;
-    hr {
-        width: 100%;
-        margin-left: auto;
-        margin-block-end: auto;
+    .footer1 {
+        display: grid;
+        grid-template-columns: 30px auto;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 16px;
+    }
+    .footer2 {
+        display: grid;
+        grid-template-columns: 30px auto;
+        align-items: center;
+        margin-left: 16px;
+    }
+    .location {
+        margin-left: 16px;
     }
     .signup {
         height: 34px;
@@ -102,56 +236,10 @@ ul {
     .icons {
         display: grid;
         grid-template-columns: 30px 30px 30px 30px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
+        margin-left: 16px;
     }
 
-    .followus {
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
 }
 
-.bedroom-img {
-    display: none;
-}
-
-@media only screen and (min-width: 768px) {
-    .bedroom-img {
-        display: block;
-        width: 100%;
-        height: auto;
-        padding: none
-    }
-}
-
-    @media (max-width: 768px)
-    { .hero-img {
-		width: 100%;
-	}
-}
-
-    @include sm{
-
-        .photo-collage {
-            display: grid;
-            padding: none;
-            margin: none;
-        }
-
-        .hero-img {
-            width: 100%;
-            
-        }
-
-    }
-
-    @include md {
-        margin-bottom: 32px;
-
-        
-    }
-
-    @include xl {
-        margin-bottom: 64px;
-    }
 }
