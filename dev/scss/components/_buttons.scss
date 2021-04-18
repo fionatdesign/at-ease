@@ -8,6 +8,7 @@ button {
 .purplebutton {
     background-color: $berry;
     border: none;
+    outline: none;
     font-size: rem-calc(16);
     font-weight: 600;
     padding: 10px;
@@ -20,4 +21,12 @@ button {
         background-color: $berrydark;
         color: $white;
     }
+}
+
+.articlebutton {
+    background-color: $berry;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
 }
