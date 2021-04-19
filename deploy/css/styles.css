@@ -373,24 +373,16 @@ html, body {
   overflow-x: hidden;
 }
 
-.content {
-  display: grid;
-  grid-template-areas: "header" "search" "hero" "explore-browse" "photo-collage" "whats-new" "footer";
-}
 .content .header {
-  width: 100%;
+  width: auto;
   padding-left: 16px;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 .content .search {
-  grid-area: search;
   padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 25px;
-}
-.content .hero {
-  grid-area: hero;
 }
 .content .hero .hero-img {
   width: 100%;
@@ -401,36 +393,24 @@ html, body {
     grid-template-columns: 40% auto;
   }
 }
-.content .hero .herolinks #hero-link-1 {
-  background-color: #674059;
-}
-.content .hero .herolinks #hero-link-2 {
-  background-color: #9D768E;
-}
-.content .hero .herolinks .hero-link:link, .content .hero .herolinks .hero-link:visited {
+.content .hero .herolinks .hero-link {
   display: block;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   text-decoration: none !important;
-  color: white;
   padding: 15px 20px;
 }
-.content .hero .herolinks .hero-link:link .detailshide, .content .hero .herolinks .hero-link:visited .detailshide {
+.content .hero .herolinks .hero-link .detailshide {
   display: none;
 }
 @media (min-width: 1024px) {
-  .content .hero .herolinks .hero-link:link .detailshide, .content .hero .herolinks .hero-link:visited .detailshide {
-    display: inline-block;
+  .content .hero .herolinks .hero-link .detailshide {
+    display: contents;
   }
 }
-.content .hero .herolinks .hero-link:hover, .content .hero .herolinks .hero-link:active {
-  background-color: #4D2C41 !important;
-  transition: 0.2s;
-}
 .content .explore-browse {
-  grid-area: explore browse;
   display: grid;
 }
 .content .explore-browse .greenads {
@@ -449,9 +429,6 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-.content .photo-collage {
-  grid-area: photo collage;
 }
 @media (min-width: 768px) {
   .content .photo-collage {
@@ -511,9 +488,6 @@ html, body {
     background-position: center;
   }
 }
-.content .whats-new {
-  grid-area: whats new;
-}
 .content .whats-new .articletext {
   padding-left: 16px;
   padding-right: 16px;
@@ -527,9 +501,6 @@ html, body {
 }
 .content .whats-new .articletext2 {
   padding-bottom: 8px;
-}
-.content .footer {
-  grid-area: footer;
 }
 .content .footer .footer1 {
   display: grid;

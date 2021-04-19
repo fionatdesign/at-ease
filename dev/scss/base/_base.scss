@@ -25,33 +25,21 @@ html,body
 }
 
 .content {
-    display: grid;
-    grid-template-areas:
-        "header"
-        "search"
-        "hero"
-        "explore-browse"
-        "photo-collage"
-        "whats-new"
-        "footer";
 
     .header {
-        width: 100%;
+        width: auto;
         padding-left: 16px;
         padding-top: 20px;
         padding-bottom: 10px;
     }
 
     .search {
-        grid-area: search;
         padding-left: 16px;
         padding-top: 8px;
         padding-bottom: 25px;
     }
 
     .hero{
-        grid-area: hero;
-
         .hero-img {
             width: 100%;
         }
@@ -62,54 +50,47 @@ html,body
                 grid-template-columns: 40% auto;
             }
 
-            @include xl{
+            // @include xl{
                
-            }
+            // }
        
-            #hero-link-1{
-                background-color: $berry;
-            }
+            // #hero-link-1{
+            //     background-color: $berry;
+            // }
 
-            #hero-link-2{
-                background-color: $berrylight;
-            }
+            // #hero-link-2{
+            //     background-color: $berrylight;
+            // }
 
-            .hero-link:link, .hero-link:visited{
+            .hero-link {
                 display: block;               
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
                 text-decoration: none!important;
-                color: white;
                 padding: 15px 20px;   
                 
-
-                @include md{
-                    // display: grid;
-                    // grid-template-columns: 30% auto;
-                }
                 .detailshide{
                     display: none;
 
                     @include lg{
-                        display: inline-block;
+                        display: contents;
                     }
                 }
                 
             }
 
-            .hero-link:hover, .hero-link:active{
-                background-color: $berrydark !important;
-                transition: .2s;
-            }
+            // .hero-link:hover, .hero-link:active{
+            //     background-color: $berrydark !important;
+            //     transition: .2s;
+            // }
     }
 
    
     }
 
     .explore-browse {
-        grid-area: explore browse;
         display: grid;
         .greenads {
             display: grid;
@@ -131,7 +112,6 @@ html,body
     }
 
     .photo-collage {
-        grid-area: photo collage;
 
         @include md {
             display: grid;
@@ -187,7 +167,13 @@ html,body
     }
 
 .whats-new {
-    grid-area: whats new;
+
+    // @include sm {
+    // .articleimage {
+    //     width: 321px;
+    //     height: 164px;
+    // }
+    // }
 
     .articletext {
         padding-left: 16px;
@@ -207,7 +193,7 @@ html,body
 }
 
 .footer {
-    grid-area: footer;
+
     .footer1 {
         display: grid;
         grid-template-columns: 30px auto;
