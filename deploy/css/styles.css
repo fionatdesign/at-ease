@@ -374,7 +374,6 @@ html, body {
 }
 
 .content .header {
-  width: auto;
   padding-left: 16px;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -382,9 +381,10 @@ html, body {
 .content .search {
   padding-left: 16px;
   padding-top: 8px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 .content .hero .hero-img {
+  background-image: url("../img/hero.jpg");
   width: 100%;
 }
 @media (min-width: 768px) {
@@ -416,10 +416,12 @@ html, body {
 .content .explore-browse .greenads {
   display: grid;
   grid-template-columns: 60% auto;
+  background-color: #B9BA8F;
   margin-bottom: 20px;
 }
 .content .explore-browse .greenads .purplebutton {
   margin: 15px;
+  width: 120px;
 }
 .content .explore-browse .greenads .furniture {
   margin: 15px;
@@ -451,15 +453,21 @@ html, body {
   background-image: url("../img/plant-with-frames.jpg");
   background-size: cover;
   background-position: center;
+  align-items: center;
+  justify-content: center;
 }
 @media (min-width: 768px) {
   .content .photo-collage .plantwithframes {
     height: 475px;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (min-width: 1200px) {
   .content .photo-collage .plantwithframes {
     height: 826px;
+    align-items: center;
+    justify-content: center;
   }
 }
 .content .photo-collage .whitechair {
@@ -472,6 +480,8 @@ html, body {
 @media (min-width: 1200px) {
   .content .photo-collage .whitechair {
     height: 413px;
+    align-items: center;
+    justify-content: center;
   }
 }
 .content .photo-collage .bedroom-img {
@@ -485,6 +495,8 @@ html, body {
     background-image: url("../img/bedroom.jpg");
     background-size: cover;
     background-position: center;
+    align-items: center;
+    justify-content: center;
   }
 }
 .content .whats-new .articletext {
@@ -501,6 +513,15 @@ html, body {
 .content .whats-new .articletext2 {
   padding-bottom: 8px;
 }
+.content .whats-new .articlebutton {
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  .content .footer .news {
+    display: grid;
+    grid-template-columns: 350px 350px auto;
+  }
+}
 .content .footer .footer1 {
   display: grid;
   grid-template-columns: 30px auto;
@@ -514,6 +535,7 @@ html, body {
   grid-template-columns: 30px auto;
   align-items: center;
   margin-left: 16px;
+  margin-bottom: 16px;
 }
 .content .footer .location {
   margin-left: 16px;
@@ -564,6 +586,50 @@ button {
   cursor: pointer;
 }
 
+.purplebutton {
+  background-color: #674059;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px;
+  transition: 0.25s;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  width: 120px;
+}
+.purplebutton:hover {
+  background-color: #4D2C41;
+  color: #fff;
+}
+
+.articlebutton {
+  background-color: #674059;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 24px;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+.articlebutton:hover {
+  background-color: #4D2C41;
+  color: #fff;
+}
+
+.signupbutton {
+  background-color: #674059;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+.signupbutton:hover {
+  background-color: #4D2C41;
+  color: #fff;
+}
+
 /* =============
     Forms
 ============= */
@@ -586,7 +652,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 .search1 .searchbar {
   width: 100%;

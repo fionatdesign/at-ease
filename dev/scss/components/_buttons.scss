@@ -5,28 +5,49 @@ button {
     cursor: pointer;
 }
 
-// .purplebutton {
-//     background-color: $berry;
-//     border: none;
-//     outline: none;
-//     font-size: rem-calc(16);
-//     font-weight: 600;
-//     padding: 10px;
-//     transition: 0.25s;
-//     font-family: 'Roboto Slab', serif;
-//     color: white;
-//     width: 120px;
+.purplebutton {
+    background-color: $berry;
+    border: none;
+    outline: none;
+    font-size: rem-calc(16);
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.25s;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    width: 120px;
 
-//     &:hover {
-//         background-color: $berrydark;
-//         color: $white;
-//     }
-// }
+    &:hover {
+        background-color: $berrydark;
+        color: $white;
+    }
+}
 
-// .articlebutton {
-//     background-color: $berry;
-//     padding: 8px;
-//     border: none;
-//     outline: none;
-//     margin-bottom: 24px;
-// }
+.articlebutton {
+    background-color: $berry;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+
+    &:hover {
+        background-color: $berrydark;
+        color: $white;
+    }
+}
+
+.signupbutton {
+    background-color: $berry;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+
+    &:hover {
+        background-color: $berrydark;
+        color: $white;
+    }
+}
