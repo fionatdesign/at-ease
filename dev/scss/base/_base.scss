@@ -94,8 +94,23 @@ html,body
         display: grid;
 
         @include md {
+            .greenads {
+                    width: 360px;
+                    margin-right: 15px;
+                    margin-left: 15px;
+            }
             grid-template-columns: auto auto;
             justify-content: center;
+        }
+
+        @include lg {
+            .greenads {
+                width: 490px;
+                margin-right: 15px;
+                margin-left: 15px;
+        }
+        grid-template-columns: auto auto;
+        justify-content: center;
         }
 
         .greenads {

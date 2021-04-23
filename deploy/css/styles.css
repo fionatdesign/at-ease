@@ -418,6 +418,22 @@ html, body {
     grid-template-columns: auto auto;
     justify-content: center;
   }
+  .content .explore-browse .greenads {
+    width: 360px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .explore-browse {
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+  .content .explore-browse .greenads {
+    width: 490px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }
 .content .explore-browse .greenads {
   display: grid;
