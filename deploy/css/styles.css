@@ -413,6 +413,12 @@ html, body {
 .content .explore-browse {
   display: grid;
 }
+@media (min-width: 768px) {
+  .content .explore-browse .greenads {
+    display: grid;
+    grid-template-columns: 300px auto;
+  }
+}
 .content .explore-browse .greenads {
   display: grid;
   grid-template-columns: 60% auto;
@@ -655,9 +661,10 @@ textarea {
   align-items: baseline;
 }
 .search1 .searchbar {
-  width: 100%;
   border: none;
   outline: none;
+  height: 50px;
+  width: auto;
   margin-bottom: 10px;
 }
 .search1 .searchicon {

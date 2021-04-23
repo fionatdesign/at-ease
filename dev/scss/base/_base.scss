@@ -92,6 +92,14 @@ html,body
 
     .explore-browse {
         display: grid;
+
+        @include md {
+            .greenads{
+                display: grid;
+                grid-template-columns: 300px auto;
+            }
+        }
+
         .greenads {
             display: grid;
             grid-template-columns: 60% auto;
@@ -101,9 +109,11 @@ html,body
             margin: 15px;
             width: 120px;
             }
+
             .furniture {
                 margin: 15px;
             }
+
             .greenads1 {
                 display: flex;
                 flex-direction: column;

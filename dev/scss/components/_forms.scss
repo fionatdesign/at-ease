@@ -22,10 +22,15 @@ textarea {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+
     .searchbar {
-        width: 100%;
+        // @include lg {
+        //     width: 1350px; 
+        // }
         border: none;
         outline: none;
+        height: 50px;
+        width: auto;
         margin-bottom: 10px;
         }
 
