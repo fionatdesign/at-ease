@@ -414,9 +414,9 @@ html, body {
   display: grid;
 }
 @media (min-width: 768px) {
-  .content .explore-browse .greenads {
-    display: grid;
-    grid-template-columns: 300px auto;
+  .content .explore-browse {
+    grid-template-columns: auto auto;
+    justify-content: center;
   }
 }
 .content .explore-browse .greenads {
@@ -483,6 +483,13 @@ html, body {
   background-size: cover;
   background-position: center;
 }
+@media (min-width: 1024px) {
+  .content .photo-collage .whitechair {
+    height: 475px;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media (min-width: 1200px) {
   .content .photo-collage .whitechair {
     height: 413px;
@@ -523,9 +530,24 @@ html, body {
   margin-bottom: 16px;
 }
 @media (min-width: 768px) {
-  .content .footer .news {
+  .content .footer {
     display: grid;
-    grid-template-columns: 350px 350px auto;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .content .footer .information {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    margin-bottom: 16px;
+  }
+  .content .footer .newsfollow {
+    grid-column: 7/12;
+    grid-row: 1/3;
+  }
+}
+@media (min-width: 1024px) {
+  .content .footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
   }
 }
 .content .footer .footer1 {
@@ -549,13 +571,13 @@ html, body {
 .content .footer .signup {
   height: 34px;
   width: 287px;
+  margin-left: 16px;
 }
 .content .footer .signup .button {
   height: auto;
 }
 .content .footer .icons {
-  display: grid;
-  grid-template-columns: 30px 30px 30px 30px;
+  display: flex;
   margin-bottom: 20px;
   margin-left: 16px;
 }
