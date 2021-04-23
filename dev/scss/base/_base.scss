@@ -207,36 +207,32 @@ html,body
     }
 
 .whats-new {
-
-    // @include sm {
-    // .articleimage {
-    //     width: 321px;
-    //     height: 164px;
-    // }
-    // }
-
+    .newscontent {
+        display: grid;
+        justify-content: center;
+    }
     @include md {
-
+        .newscontent {
+            display: grid;
+            grid-template-columns: 320px 320px;
+            justify-content: center;
+            grid-gap: 30px;
+            .articletext2 {
+                text-align: justify;
+            }
+        }
     }
-
-    .articletext {
-        padding-left: 16px;
-        padding-right: 16px;
-        display: block;
-        margin-block-start: 1fr;
-        margin-block-end: auto;
+    @include lg {
+        .newscontent {
+            display: grid;
+            grid-template-columns: 320px 320px 320px;
+            justify-content: center;
+            grid-gap: 30px;
+            .articletext2 {
+                text-align: justify;
+            }
+        }
     }
-    .articletext1 {
-        padding-top: 16px;
-        padding-bottom: 8px;
-    }
-    .articletext2 {
-        padding-bottom: 8px;
-    }
-    .articlebutton {
-        margin-bottom: 16px;
-    }
-
 }
 
 .footer {
