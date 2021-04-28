@@ -46,18 +46,6 @@ html,body
                 grid-template-columns: 40% auto;
             }
 
-            // @include xl{
-               
-            // }
-       
-            // #hero-link-1{
-            //     background-color: $berry;
-            // }
-
-            // #hero-link-2{
-            //     background-color: $berrylight;
-            // }
-
             .hero-link {
                 display: block;               
                 display: flex;
@@ -77,10 +65,6 @@ html,body
                 
             }
 
-            // .hero-link:hover, .hero-link:active{
-            //     background-color: $berrydark !important;
-            //     transition: .2s;
-            // }
     }
 
    

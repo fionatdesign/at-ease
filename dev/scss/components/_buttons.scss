@@ -5,6 +5,19 @@ button {
     cursor: pointer;
 }
 
+#hero-link-1{
+    background-color: $berry;
+}
+
+#hero-link-2{
+    background-color: $berrylight;
+}
+
+.hero-link:hover, .hero-link:active{
+    background-color: $berrydark !important;
+    transition: .2s;
+}
+
 .purplebutton {
     background-color: $berry;
     border: none;

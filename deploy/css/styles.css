@@ -649,6 +649,19 @@ button {
   cursor: pointer;
 }
 
+#hero-link-1 {
+  background-color: #674059;
+}
+
+#hero-link-2 {
+  background-color: #9D768E;
+}
+
+.hero-link:hover, .hero-link:active {
+  background-color: #4D2C41 !important;
+  transition: 0.2s;
+}
+
 .purplebutton {
   background-color: #674059;
   border: none;
