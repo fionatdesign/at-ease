@@ -387,7 +387,7 @@ html, body {
   background-image: url("../img/hero-family.jpg");
   background-size: cover;
   max-width: 100%;
-  height: 500px;
+  height: 530px;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -490,6 +490,13 @@ html, body {
     justify-content: center;
   }
 }
+@media (min-width: 1024px) {
+  .content .photo-collage .plantwithframes {
+    height: 626px;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media (min-width: 1200px) {
   .content .photo-collage .plantwithframes {
     height: 826px;
@@ -506,7 +513,9 @@ html, body {
 }
 @media (min-width: 1024px) {
   .content .photo-collage .whitechair {
-    height: 475px;
+    height: 626px;
+    width: auto;
+    background-size: cover;
     align-items: center;
     justify-content: center;
   }
@@ -520,6 +529,18 @@ html, body {
 }
 .content .photo-collage .bedroom-img {
   display: none;
+}
+@media (min-width: 768px) {
+  .content .photo-collage .bedroom-img {
+    background-image: url("../img/bedroom.jpg");
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .content .photo-collage .bedroom-img {
+    background-image: url("../img/bedroom.jpg");
+    display: none;
+  }
 }
 @media (min-width: 1200px) {
   .content .photo-collage .bedroom-img {
@@ -544,9 +565,6 @@ html, body {
     justify-content: center;
     grid-gap: 30px;
   }
-  .content .whats-new .newscontent .articletext2 {
-    text-align: justify;
-  }
 }
 @media (min-width: 1024px) {
   .content .whats-new .newscontent {
@@ -554,9 +572,6 @@ html, body {
     grid-template-columns: 320px 320px 320px;
     justify-content: center;
     grid-gap: 30px;
-  }
-  .content .whats-new .newscontent .articletext2 {
-    text-align: justify;
   }
 }
 @media (min-width: 768px) {
