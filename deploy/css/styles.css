@@ -373,16 +373,6 @@ html, body {
   overflow-x: hidden;
 }
 
-.content .header {
-  margin-left: 16px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.content .search {
-  padding-left: 16px;
-  padding-top: 8px;
-  padding-bottom: 15px;
-}
 @media (min-width: 768px) {
   .content .hero .herolinks {
     display: grid;
@@ -555,10 +545,12 @@ button {
 
 #hero-link-1 {
   background-color: #674059;
+  color: white;
 }
 
 #hero-link-2 {
   background-color: #9D768E;
+  color: white;
 }
 
 .hero-link:hover, .hero-link:active {
@@ -585,6 +577,7 @@ button {
 
 .greenads {
   background-color: #B9BA8F;
+  color: white;
   margin-top: 20px;
 }
 
@@ -759,4 +752,16 @@ textarea {
     align-items: center;
     justify-content: center;
   }
+}
+
+.header {
+  margin-left: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.search {
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 5px;
 }
