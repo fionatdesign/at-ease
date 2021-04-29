@@ -28,10 +28,13 @@ textarea {
         //     width: 1350px; 
         // }
         border: none;
-        outline: none;
-        height: 50px;
+        // outline: none;
+        // height: 50px;
+        padding: 50px auto 5px 20px;
         width: auto;
         margin-bottom: 10px;
+        border-bottom: 2px solid $silver;
+        width: 100%;
         }
 
     .searchicon {
