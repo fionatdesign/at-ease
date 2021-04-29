@@ -374,9 +374,9 @@ html, body {
 }
 
 .content .header {
-  padding-left: 16px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin-left: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .content .search {
   padding-left: 16px;
@@ -447,102 +447,6 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-@media (min-width: 768px) {
-  .content .photo-collage {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-}
-@media (min-width: 1024px) {
-  .content .photo-collage {
-    grid-template-columns: 60% auto;
-  }
-}
-@media (min-width: 1200px) {
-  .content .photo-collage {
-    grid-template-columns: 55% auto;
-  }
-}
-.content .photo-collage .plantwithframes {
-  width: 100%;
-  height: 380px;
-  background-image: url("../img/plant-with-frames.jpg");
-  background-size: cover;
-  background-position: center;
-  align-items: center;
-  justify-content: center;
-}
-@media (min-width: 768px) {
-  .content .photo-collage .plantwithframes {
-    height: 475px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media (min-width: 1024px) {
-  .content .photo-collage .plantwithframes {
-    height: 626px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media (min-width: 1200px) {
-  .content .photo-collage .plantwithframes {
-    height: 826px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-.content .photo-collage .whitechair {
-  width: 100%;
-  height: 475px;
-  background-image: url("../img/white-chair.jpg");
-  background-size: cover;
-  background-position: center;
-}
-@media (min-width: 1024px) {
-  .content .photo-collage .whitechair {
-    height: 626px;
-    width: auto;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media (min-width: 1200px) {
-  .content .photo-collage .whitechair {
-    height: 413px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-.content .photo-collage .bedroom-img {
-  display: none;
-}
-@media (min-width: 768px) {
-  .content .photo-collage .bedroom-img {
-    background-image: url("../img/bedroom.jpg");
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  .content .photo-collage .bedroom-img {
-    background-image: url("../img/bedroom.jpg");
-    display: none;
-  }
-}
-@media (min-width: 1200px) {
-  .content .photo-collage .bedroom-img {
-    display: block;
-    width: 100%;
-    height: 413px;
-    background-image: url("../img/bedroom.jpg");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-  }
 }
 .content .whats-new .newscontent {
   display: grid;
@@ -758,4 +662,101 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .photo-collage {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 1024px) {
+  .photo-collage {
+    grid-template-columns: 60% auto;
+  }
+}
+@media (min-width: 1200px) {
+  .photo-collage {
+    grid-template-columns: 55% auto;
+  }
+}
+.photo-collage .plantwithframes {
+  width: 100%;
+  height: 380px;
+  background-image: url("../img/plant-with-frames.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .photo-collage .plantwithframes {
+    height: 475px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .photo-collage .plantwithframes {
+    height: 626px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .photo-collage .plantwithframes {
+    height: 826px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.photo-collage .whitechair {
+  width: 100%;
+  height: 475px;
+  background-image: url("../img/white-chair.jpg");
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1024px) {
+  .photo-collage .whitechair {
+    height: 626px;
+    width: auto;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .photo-collage .whitechair {
+    height: 413px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.photo-collage .bedroom-img {
+  display: none;
+}
+@media (min-width: 768px) {
+  .photo-collage .bedroom-img {
+    background-image: url("../img/bedroom.jpg");
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .photo-collage .bedroom-img {
+    background-image: url("../img/bedroom.jpg");
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .photo-collage .bedroom-img {
+    display: block;
+    width: 100%;
+    height: 413px;
+    background-image: url("../img/bedroom.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
