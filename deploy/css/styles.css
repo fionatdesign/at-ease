@@ -761,6 +761,9 @@ textarea {
   background: #674059;
   border-radius: 5px;
 }
+.search form button i {
+  color: #F5F5F5;
+}
 @media (min-width: 1024px) {
   .search .search1 {
     display: flex;
