@@ -1,15 +1,17 @@
 .articletext {
     background: $olivelight;
+
+    .articlebutton {
+        margin: 16px;
+    }
 }
 
 .articletext1 {
     padding: 16px;
+    color: $dullbluedark;
 }
 
 .articletext2 {
     padding: 5px 16px;
-}
-
-.articlebutton {
-    margin: 16px;
+    color: $shadowmountaindark;
 }

@@ -586,7 +586,6 @@ button {
   padding: 8px;
   border: none;
   outline: none;
-  margin-bottom: 24px;
   font-family: "Roboto Slab", serif;
   color: white;
 }
@@ -746,9 +745,11 @@ textarea {
   display: grid;
   grid-template-columns: 85% auto;
   grid-gap: 20px;
+  outline: none;
 }
 .search form input {
   border: none;
+  outline: none;
   border-bottom: 1px solid #201D1E;
   padding: 5px;
   background-color: transparent;
@@ -776,17 +777,18 @@ textarea {
 .articletext {
   background: #EDEDCE;
 }
+.articletext .articlebutton {
+  margin: 16px;
+}
 
 .articletext1 {
   padding: 16px;
+  color: #184C71;
 }
 
 .articletext2 {
   padding: 5px 16px;
-}
-
-.articlebutton {
-  margin: 16px;
+  color: #201D1E;
 }
 
 footer {

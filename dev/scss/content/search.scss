@@ -6,10 +6,12 @@
             display: grid;
             grid-template-columns: 85% auto;
             grid-gap: 20px;
+            outline: none;
 	}
 
     form input {
         border: none;
+        outline: none;
 		border-bottom: 1px solid $shadowmountaindark;
 		padding: 5px;
         background-color: transparent;
