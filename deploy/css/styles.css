@@ -507,8 +507,7 @@ html, body {
 }
 .content .footer .icons {
   display: flex;
-  margin-bottom: 20px;
-  margin-left: 16px;
+  margin: 16px;
 }
 
 /* =============
@@ -805,4 +804,22 @@ footer {
   footer {
     margin-top: 50px;
   }
+}
+footer i {
+  color: #9D768E;
+}
+footer h2 {
+  color: #201D1E;
+}
+footer h4 {
+  color: #46779B;
+}
+footer .footer1 address {
+  color: #595858;
+}
+footer .footer2 p {
+  color: #595858;
+}
+footer .icons li a {
+  margin-right: 10px;
 }

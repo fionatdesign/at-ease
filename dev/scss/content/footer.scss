@@ -8,4 +8,34 @@ footer {
     @include xl {
         margin-top: 50px;
     }
+
+    i {
+        color: $berrylight;
+    }
+
+    h2 {
+        color: $shadowmountaindark;
+    }
+
+    h4 {
+        color: $dullblue;
+    }
+
+    .footer1 {
+        address {
+            color: $shadowmountain;
+        }
+    }
+
+    .footer2 {
+        p {
+            color: $shadowmountain;
+        }
+    }
+
+    .icons {
+        li a {
+            margin-right: 10px;
+        }
+    }
 }
