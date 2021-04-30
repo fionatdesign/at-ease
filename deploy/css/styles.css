@@ -823,3 +823,9 @@ footer .footer2 p {
 footer .icons li a {
   margin-right: 10px;
 }
+footer input {
+  outline: none;
+  border: none;
+  background-color: #F5F5F5;
+  padding: 10px;
+}

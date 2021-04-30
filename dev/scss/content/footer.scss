@@ -38,4 +38,11 @@ footer {
             margin-right: 10px;
         }
     }
+
+    input {
+        outline: none;
+        border: none;
+        background-color: $silverlight;
+        padding: 10px;
+    }
 }
