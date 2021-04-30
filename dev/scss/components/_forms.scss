@@ -18,31 +18,43 @@ textarea {
 }
 
 .search1 {
+    padding: 2px;
+    .search2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    }
 
     .searchbar {
-        // @include lg {
-        //     width: 1350px; 
-        // }
-        border: none;
-        // outline: none;
-        // height: 50px;
-        padding: 50px auto 5px 20px;
-        width: auto;
-        margin-bottom: 10px;
-        border-bottom: 2px solid $silver;
-        width: 100%;
+        @include lg {
+            border: none;
+            outline: none;
+            background: transparent;
+            padding: 20px 0px 0px;
+            border-bottom: 1px solid $shadowmountaindark;
+            width: 925px; 
         }
 
-    .searchicon {
-        margin-right: 18px;
+
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 20px 0px 0px;
+        border-bottom: 1px solid $shadowmountaindark;
+        width: 230px;
+
+
+        @include md {
+            border: none;
+            outline: none;
+            background: transparent;
+            padding: 20px 0px 0px;
+            border-bottom: 1px solid $shadowmountaindark;
+            width: 670px;
+        }
+
+        
     }
-}
 
-.newsletter {
-    margin-left: 16px;
 }
-
