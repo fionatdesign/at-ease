@@ -1,5 +1,11 @@
+.whatsnew h2 {
+    color: $shadowmountaindark;
+}
+
+
 .articletext {
     background: $olivelight;
+    margin-bottom: 20px;
 
     .articlebutton {
         margin: 16px;
@@ -14,4 +20,10 @@
 .articletext2 {
     padding: 5px 16px;
     color: $shadowmountaindark;
+}
+
+@include lg {
+.newscontent {
+    margin: 10px;
+}
 }
