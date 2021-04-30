@@ -398,6 +398,7 @@ html, body {
 }
 .content .explore-browse {
   display: grid;
+  margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   .content .explore-browse {
@@ -408,6 +409,7 @@ html, body {
     width: 360px;
     margin-right: 15px;
     margin-left: 15px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 1024px) {
@@ -419,12 +421,12 @@ html, body {
     width: 490px;
     margin-right: 15px;
     margin-left: 15px;
+    margin-bottom: 20px;
   }
 }
 .content .explore-browse .greenads {
   display: grid;
   grid-template-columns: 60% auto;
-  margin-bottom: 20px;
 }
 .content .explore-browse .greenads .purplebutton {
   margin: 15px;
