@@ -1,5 +1,22 @@
 .articletext {
     background: $olivelight;
+    margin-bottom: 30px;
+    padding-bottom: 16px;
+
+    @include md {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    @include lg {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    @include xl {
+        margin: 0px;
+        padding: 0px;
+    }
 
     .articlebutton {
         margin: 16px;
@@ -14,4 +31,12 @@
 .articletext2 {
     padding: 5px 16px;
     color: $shadowmountaindark;
+}
+
+.whats-new {
+    width: 100%;
+}
+
+.articleimage {
+    width: 100%;
 }
