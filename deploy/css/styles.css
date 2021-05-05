@@ -573,6 +573,13 @@ h4 {
   color: white;
 }
 
+input {
+  font-family: "Spartan", sans-serif;
+  font-weight: 200;
+  font-size: 1.5625rem;
+  color: #595858;
+}
+
 .hero-subtext {
   font-family: "Spartan", sans-serif;
   font-weight: 400;

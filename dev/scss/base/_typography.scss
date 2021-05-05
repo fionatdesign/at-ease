@@ -24,6 +24,12 @@ h4{
     color: white;
 }
 
+input {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
+    font-size: rem-calc(25);
+    color: $shadowmountain;
+}
 
 .hero-subtext{
     font-family: 'Spartan', sans-serif;
