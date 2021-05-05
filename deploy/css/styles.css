@@ -923,6 +923,122 @@ textarea {
   width: 100%;
 }
 
+.newscontent .pethairfree {
+  background-image: url("../img/pet-hair-free.jpg");
+  width: 100%;
+  height: 32vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .newscontent .pethairfree {
+    height: 164px;
+  }
+}
+@media (min-width: 1024px) {
+  .newscontent .pethairfree {
+    height: 164px;
+  }
+}
+@media (min-width: 1200px) {
+  .newscontent .pethairfree {
+    height: 164px;
+  }
+}
+.newscontent .buyingfurniture {
+  background-image: url("../img/buying-furniture.jpg");
+  width: 100%;
+  height: 32vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .newscontent .buyingfurniture {
+    height: 164px;
+  }
+}
+@media (min-width: 1024px) {
+  .newscontent .buyingfurniture {
+    height: 164px;
+  }
+}
+@media (min-width: 1200px) {
+  .newscontent .buyingfurniture {
+    height: 164px;
+  }
+}
+.newscontent .homeoffice {
+  background-image: url("../img/home-office.jpg");
+  width: 100%;
+  height: 32vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .newscontent .homeoffice {
+    height: 164px;
+  }
+}
+@media (min-width: 1024px) {
+  .newscontent .homeoffice {
+    height: 164px;
+  }
+}
+@media (min-width: 1200px) {
+  .newscontent .homeoffice {
+    height: 164px;
+  }
+}
+.newscontent .diningtable {
+  background-image: url("../img/dining-table.jpg");
+  width: 100%;
+  height: 32vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .newscontent .diningtable {
+    height: 164px;
+  }
+}
+@media (min-width: 1024px) {
+  .newscontent .diningtable {
+    height: 164px;
+  }
+}
+@media (min-width: 1200px) {
+  .newscontent .diningtable {
+    height: 164px;
+  }
+}
+.newscontent .colortrends {
+  background-image: url("../img/color-trends.jpg");
+  width: 100%;
+  height: 32vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .newscontent .colortrends {
+    height: 164px;
+  }
+}
+@media (min-width: 1024px) {
+  .newscontent .colortrends {
+    height: 164px;
+  }
+}
+@media (min-width: 1200px) {
+  .newscontent .colortrends {
+    height: 164px;
+  }
+}
+
 footer {
   background-color: #E9E9E9;
   margin-top: 30px;

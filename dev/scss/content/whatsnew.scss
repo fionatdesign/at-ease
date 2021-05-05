@@ -40,3 +40,95 @@
 .articleimage {
     width: 100%;
 }
+
+.newscontent {
+        .pethairfree {
+        background-image: url("../img/pet-hair-free.jpg");
+        width: 100%;
+        height: 32vh;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        @include md {
+            height: 164px;
+        }
+        @include lg {
+            height: 164px;
+        }
+        @include xl {
+            height: 164px;
+        }
+        }
+
+        .buyingfurniture {
+            background-image: url("../img/buying-furniture.jpg");
+            width: 100%;
+            height: 32vh;
+            background-size: cover;
+            background-position: center;
+            align-items: center;
+            @include md {
+                height: 164px;
+            }
+            @include lg {
+                height: 164px;
+            }
+            @include xl {
+                height: 164px;
+            }
+        }
+
+        .homeoffice {
+            background-image: url("../img/home-office.jpg");
+            width: 100%;
+            height: 32vh;
+            background-size: cover;
+            background-position: center;
+            align-items: center;
+            @include md {
+                height: 164px;
+            }
+            @include lg {
+                height: 164px;
+            }
+            @include xl {
+                height: 164px;
+            }
+        }
+
+        .diningtable {
+            background-image: url("../img/dining-table.jpg");
+            width: 100%;
+            height: 32vh;
+            background-size: cover;
+            background-position: center;
+            align-items: center;
+            @include md {
+                height: 164px;
+            }
+            @include lg {
+                height: 164px;
+            }
+            @include xl {
+                height: 164px;
+            }
+        }
+
+        .colortrends {
+            background-image: url("../img/color-trends.jpg");
+            width: 100%;
+            height: 32vh;
+            background-size: cover;
+            background-position: center;
+            align-items: center;
+            @include md {
+                height: 164px;
+            }
+            @include lg {
+                height: 164px;
+            }
+            @include xl {
+                height: 164px;
+            }
+        }
+}
