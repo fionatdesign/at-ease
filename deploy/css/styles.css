@@ -561,6 +561,30 @@ h1, h2, h3, h4 {
 
 h2 {
   margin: 16px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: white;
+}
+
+.hero-subtext {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: white;
+}
+
+.detailshide {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: white;
 }
 
 p {
@@ -570,6 +594,36 @@ p {
 
 .section-title {
   font-weight: 300;
+}
+
+.newarrivals {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.articletext1 {
+  font-size: 1.6875rem;
+}
+
+.articletext2 {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: white;
+}
+
+address {
+  font-family: "Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.footer2 p {
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
 }
 
 /* =============
