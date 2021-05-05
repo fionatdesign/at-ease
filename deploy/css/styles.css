@@ -610,7 +610,8 @@ line p {
 }
 
 .articletext1 {
-  font-size: 1.6875rem;
+  font-size: 1.5rem;
+  line-height: 1.3;
 }
 
 .articletext2 {
