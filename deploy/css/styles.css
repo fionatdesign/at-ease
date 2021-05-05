@@ -573,7 +573,7 @@ h4 {
   color: white;
 }
 
-input {
+.search input {
   font-family: "Spartan", sans-serif;
   font-weight: 200;
   font-size: 1.5625rem;
@@ -594,7 +594,7 @@ input {
   color: white;
 }
 
-p {
+line p {
   margin: 0;
   padding: 0;
 }
@@ -631,6 +631,12 @@ address {
   font-family: "Spartan", sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
+}
+
+.news input {
+  font-family: "Spartan", sans-serif;
+  font-weight: 200;
+  font-size: 0.875rem;
 }
 
 /* =============
