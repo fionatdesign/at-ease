@@ -1071,6 +1071,9 @@ footer .footer1 address {
 footer .footer2 p {
   color: #595858;
 }
+footer .location {
+  padding-top: 16px;
+}
 footer .icons li a {
   margin-right: 10px;
 }
